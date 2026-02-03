@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0F1219;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.yellow-div {
+  background-color: #f5a6072d;
+  border-radius: 12px;
+  width: 42px;
+  height: 42px;
+}
+
+.total-cards__icon {
+  border-radius: 12px;
+  width: 42px;
+  height: 42px;
+}
+
+/* card pendente */
+.total-cards--pending {
+  --accent: #f5a507;
+}
+
+.total-cards--pending .total-cards__icon {
+  background: rgba(245, 165, 7, 0.15);
+  color: var(--accent);
+}
+
+/* card vencido  */
+.total-cards--overdue {
+  --accent: #e03e3e;
+}
+
+.total-cards--overdue .total-cards__icon {
+  background: rgba(224, 62, 62, 0.15);
+  color: var(--accent);
+}
+
+.total-cards--overdue .total-cards__total {
+  color: var(--accent) !important;
+}
+
+.total-cards--overdue .total-cards__total {
+  color: var(--accent);
+}
+
+/* card vencido contas  */
+
+.total-cards--expired {
+  --accent: #f5a507;
+}
+
+.total-cards--expired .total-cards__icon {
+  background: rgba(245, 165, 7, 0.15);
+  color: var(--accent);
+}
+

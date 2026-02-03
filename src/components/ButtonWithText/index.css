@@ -1,0 +1,9 @@
+.div-button-with-text p {
+  color: #7b899d;
+}
+
+.div-button-with-text button {
+  background-color: #f59f0a;
+  border-radius: 12px;
+  border: none; 
+}

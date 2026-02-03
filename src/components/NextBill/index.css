@@ -1,0 +1,21 @@
+.next-bill-div {
+  background-image: linear-gradient(to bottom right, hsl(38 92% 50% / 0.2) , hsl(38 92% 50% / 0.1) , transparent);
+  border: 1px solid #f59f0a4d;
+  border-radius: 16px;
+}
+
+.yellow-grad {
+  background: linear-gradient(90deg,rgba(255, 166, 0, 1) 0%, rgba(255, 174, 0, 1) 50%, rgba(238, 191, 80, 1) 98%, rgba(237, 221, 83, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.next-bill-div-text {
+  color: #7b899d;
+}
+
+.btn-next-bill {
+  background-color: #f59f0a;
+  border-radius: 12px;
+  border: none; 
+}

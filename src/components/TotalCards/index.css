@@ -1,0 +1,10 @@
+.total-cards-div p{
+  color: #7b899d;
+}
+
+.total-cards-div {
+  background-color: #181c25cc;
+  border: 1px solid #2b303b80;
+  border-radius: 18px;
+  width: 380px;
+}

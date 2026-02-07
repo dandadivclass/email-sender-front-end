@@ -1,0 +1,22 @@
+.bill-trigger {
+    padding: 20px;
+    border-radius: 14px;
+    background-color: #181c25cc;
+    border: none;
+}
+
+.bill-trigger p {
+    color: #7b899d;
+}
+
+.paid-bills-total-accordion {
+    background-color: #21c45d1a;
+    border: 1px solid #21c45d33;
+    color: #21c45d;
+    padding: 4px 12px;
+    border-radius: 12px;
+}
+
+.paid-bills-total-accordion .p-pago {
+    color: #21c45d !important; 
+}
